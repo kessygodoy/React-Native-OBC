@@ -1,11 +1,7 @@
-
 import React from 'react';
-import {Text} from 'react-native'
+import {Text} from 'react-native';
+import StackNavigator from './src/StackNavigator';
 
-const App = props =>{
-  return(
-    <Text>Hello World!</Text>
-  )
-}
-
-export default App;
+export default App = props => {
+  return <StackNavigator />;
+};
